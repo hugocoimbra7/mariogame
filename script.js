@@ -36,7 +36,11 @@ const loop = setInterval(() => {
         death(); 
 
         clearInterval(loop);
-        console.log ("Se fodeu!")
+        
+        setTimeout (()=>{
+            window.alert("Se fodeu!")
+        }, 200)
+    
     }
 }, 10);
 
