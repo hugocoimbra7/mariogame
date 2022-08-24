@@ -46,8 +46,4 @@ const loop = setInterval(() => {
         score.innerHTML = `SCORE: ${count}`;
 }, 10);
 
-count++;
-        score.innerHTML = `SCORE: ${count}`;
-
-
 document.addEventListener('keydown', jump);
