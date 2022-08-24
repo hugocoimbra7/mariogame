@@ -40,11 +40,12 @@ const loop = setInterval(() => {
         setTimeout (()=>{
             window.alert("Se fodeu! Seu score foi: ${count}");
             count =0;
-
-            count++;
-            score.innerHTML = `SCORE: ${count}`;
         }, 200)
-    
+
+        if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
+        count++;
+        score.innerHTML = `SCORE: ${count}`;
+        }
     }
 }, 10);
 
