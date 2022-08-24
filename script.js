@@ -41,11 +41,11 @@ const loop = setInterval(() => {
             window.alert(`Se fodeu! Seu score foi: ${count}`);
             count =0;
         }, 200)
+        count++;
+                score.innerHTML = `SCORE: ${count}`;
     }
 }, 10);
 
-count++;
-        score.innerHTML = `SCORE: ${count}`;
 
 
 document.addEventListener('keydown', jump);
