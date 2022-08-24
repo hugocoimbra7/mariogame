@@ -39,7 +39,12 @@
     animation: clouds-animation 15s infinite linear;
 }
 
-
+.score {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: x-large;
+}
 
 @keyframes pipe-animation {
     from {
