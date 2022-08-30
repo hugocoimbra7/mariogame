@@ -38,7 +38,7 @@ const loop = setInterval(() => {
         clearInterval(loop);
         
         setTimeout (()=>{
-            window.alert("Se fodeu!");
+            window.alert(`Se fodeu! Seu score foi: ${count}`);
             count =0;
         }, 200)
     }
